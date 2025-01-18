@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7a178ca2198ba5c79614d61cdfe614d4",
+    "packages": [
+        {
+            "name": "nixn/php-util",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nixn/php-util.git",
+                "reference": "35c709216ac17d77b569fe0fce0492bd91b82221"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nixn/php-util/zipball/35c709216ac17d77b569fe0fce0492bd91b82221",
+                "reference": "35c709216ac17d77b569fe0fce0492bd91b82221",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "nixn\\php\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "nix"
+                }
+            ],
+            "description": "PHP language utilities, mostly to code more in functional style.",
+            "support": {
+                "issues": "https://github.com/nixn/php-util/issues",
+                "source": "https://github.com/nixn/php-util/tree/v1.0"
+            },
+            "time": "2025-01-18T14:05:57+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.2"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

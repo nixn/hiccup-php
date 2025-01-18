@@ -1,0 +1,20 @@
+{
+    "name": "nixn/hiccup",
+    "description": "An HTML templating engine, based on PHP code (strings, arrays, classes and inheritance). It is a (sophisticated) port of [Hiccup for Clojure](https://github.com/weavejester/hiccup).",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "nixn/php-util": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "nix"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "nixn\\hiccup\\": "src/"
+        }
+    }
+}
